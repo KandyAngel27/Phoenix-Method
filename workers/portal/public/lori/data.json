@@ -8,7 +8,7 @@
   "hours_used": 1,
   "rollover_enabled": true,
   "hours_rolled_over": 0,
-  "updated": "2026-09-04",
+  "updated": "2026-09-09",
   "next_invoice": {
     "date": "October 1, 2026",
     "amount": "$575.00"
@@ -45,7 +45,7 @@
     },
     {
       "text": "Blog Post or SEO Op",
-      "status": "todo"
+      "status": "done"
     },
     {
       "text": "Social Media Posting — 2 LinkedIn + 2 Instagram",
@@ -290,24 +290,19 @@
   ],
   "content_calendar": [
     {
-      "date": "Sep 15",
-      "title": "Blog Topic or Draft Submission Due",
-      "type": "client"
+      "date": "Sep 4",
+      "title": "Blog Post or SEO Op — Published",
+      "type": "deliverable"
     },
     {
-      "date": "Sep 15",
-      "title": "LinkedIn Post Due",
-      "type": "social"
-    },
-    {
-      "date": "Sep 17",
+      "date": "Sep 11",
       "title": "Instagram Post Due",
       "type": "social"
     },
     {
-      "date": "Sep 22",
-      "title": "Blog Post or SEO Op",
-      "type": "deliverable"
+      "date": "Sep 17",
+      "title": "LinkedIn Post Due",
+      "type": "social"
     },
     {
       "date": "Sep 22",
@@ -321,18 +316,22 @@
     }
   ],
   "content_choice": {
-    "chosen": null,
+    "chosen": "blog",
     "blog": {
-      "title": null,
-      "keyword": null,
-      "status": "pending"
+      "title": "Building Resiliency in Your Kids: A Natural Process",
+      "author": "Leah Maughan, LMFTA",
+      "keyword": "building resiliency in children",
+      "source": "client_written",
+      "status": "published",
+      "url": "https://lorikimmerly.com/2026/09/04/building-resiliency-in-children/",
+      "published": "September 4, 2026"
     },
     "page": {
       "title": "Insurance page — CTR / SEO optimization",
       "url": "lorikimmerly.com/2026/05/19/does-insurance-cover-therapy-washington-state/",
       "keyword": "does state insurance cover therapy",
-      "status": "suggested",
-      "note": "Bumped from July and August — client-submitted posts filled both months. Currently pos 8.5, 39 impressions, 0 clicks — strong SEO op candidate."
+      "status": "deferred",
+      "note": "Held over again — September's slot was filled by Leah Maughan's client-submitted resiliency post. Still on the shortlist for a future month."
     }
   },
   "blog_topics": [
@@ -396,19 +395,28 @@
       "wp_post_id": 50981,
       "source": "client",
       "note": "Written by Caroline Bacon, LMHCA; submitted by Lori 08-03."
+    },
+    {
+      "title": "Building Resiliency in Your Kids: A Natural Process",
+      "keyword": "building resiliency in children",
+      "status": "used",
+      "month_used": "September",
+      "wp_post_id": 51611,
+      "source": "client",
+      "note": "Written by Leah Maughan, LMFTA; published September 4, 2026."
     }
   ],
   "posting_plan": [
     {
-      "platform": "linkedin",
+      "platform": "instagram",
       "title": null,
       "status": "pending",
-      "due": "Sep 15",
+      "due": "Sep 11",
       "date": null,
       "url": null
     },
     {
-      "platform": "instagram",
+      "platform": "linkedin",
       "title": null,
       "status": "pending",
       "due": "Sep 17",
@@ -761,6 +769,11 @@
       "from": "Kandy",
       "date": "September 2, 2026",
       "text": "September is here — and thank you, your September invoice is paid and your package is active. August wrapped up strong: Caroline's tokophobia post went live August 10 with full SEO treatment and her own author profile, all four social posts published (2 LinkedIn + 2 Instagram, closing with the tokophobia support carousel on the 29th), and the August monitoring pass came back clean — all 27 sitemap URLs indexed, zero broken internal links, breadcrumbs valid on all 26 pages. Your included site hour went to working out how to add a real cart to the sticker shop's Square setup, and on September 1 the homepage carousel rotated to feature you, Kristen, and Jared this month. For September: your blog or SEO op slot is open — send your topic by September 15 and we'll have it live by the 22nd. If we don't hear from you, we'll optimize the insurance page (currently pos 8.5 with 39 impressions and 0 clicks — it's been patiently waiting since July). Your quarterly performance report (covering Aug 1 – Oct 31) is due October 31, and the Service Pages estimate is still available in your Reports section whenever you're ready to take a look."
+    },
+    {
+      "from": "Kandy",
+      "date": "September 9, 2026",
+      "text": "September's blog or SEO op slot is complete — Leah Maughan's post, “Building Resiliency in Your Kids: A Natural Process,” went live September 4 at https://lorikimmerly.com/2026/09/04/building-resiliency-in-children/. It's a back-to-school piece on how resiliency grows in children through attachment, regulation, efficacy and social connection, and we published it with the full SEO treatment, an author section crediting Leah by name and credential, and a Book with Leah Maughan, LMFTA button at the end. Because the blog filled this month's slot, the insurance page optimization moves to a future month. Thank you as well — the invoice for the team member addition is paid, and that work is finished: Monique Meissner, MFT Intern, is live at https://lorikimmerly.com/monique-meissner/ with her full bio, and she's on the homepage carousel, the Meet the Team page, the therapist dropdown in your navigation, and the clinician-preference dropdown on your Contact page so people can request her by name. Her link is in your Site Links list here in the portal. We've also re-synced this month's social posting dates to match the schedule — Instagram on the 11th and 22nd, LinkedIn on the 17th and 29th. Your quarterly performance report (covering Aug 1 – Oct 31) is due October 31, and the Service Pages estimate is still in your Reports section whenever you'd like to look it over."
     }
   ],
   "site_links": [
@@ -1244,6 +1257,20 @@
       "title": "Search-engine credit corrected on Monique’s bio, and departed therapists removed from structured data",
       "detail": "Two structured-data fixes. First, Monique’s new bio page was telling Google the page was written by a generic site admin account rather than by Monique herself. On health and wellbeing pages Google looks specifically for a real, credentialled clinician behind the content, so we replaced it with a full professional profile for her - her name, title, training at Antioch, the practice she works for, her areas of focus and the areas she serves. Her page now matches the rest of the team. Second, the structured data behind the Meet the Team page still listed two therapists who left the practice some time ago; both have been removed so search engines only ever see the current team. Everything verified live.",
       "ticket": "LOR-418"
+    },
+    {
+      "date": "September 4, 2026",
+      "type": "content",
+      "title": "September blog post published — Building Resiliency in Your Kids",
+      "detail": "Leah Maughan's post on building resiliency in children is live at https://lorikimmerly.com/2026/09/04/building-resiliency-in-children/ — a back-to-school piece on how resiliency grows through attachment, regulation, efficacy and social connection. We gave it the full SEO treatment: search title, meta description and target keywords built around “building resiliency in children,” her cited references kept intact, and an author section that credits Leah by name and credential so search engines see a licensed clinician behind the content. It closes with a link to her bio and a Book with Leah Maughan, LMFTA button, the same treatment the grief, trauma and tokophobia posts have. This fills September's blog or SEO op slot. Verified live.",
+      "ticket": "LOR-417"
+    },
+    {
+      "date": "September 9, 2026",
+      "type": "content",
+      "title": "Team member addition invoice paid — Monique Meissner's bio complete",
+      "detail": "The invoice for adding a new team member to the site has been paid, and that work is finished. Monique Meissner, MFT Intern, has her full bio page live at https://lorikimmerly.com/monique-meissner/ and appears everywhere the team does — the homepage therapist carousel, the Meet the Team page, the therapist dropdown in the main navigation, and the clinician-preference dropdown on the Contact page, so prospective clients can ask for her by name. Her page carries its own search title, description and keywords, and her professional profile in the structured data search engines read. Her link is in your Site Links list here in the portal.",
+      "ticket": "LOR-414"
     }
   ],
   "homepage": "https://lorikimmerly.com"
